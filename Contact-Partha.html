@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Partha</title>
+  </head>
+  <body>
+    <h1>My Contact:</h1>
+    <p>Name:Partha Pramanik</p>
+    <p>mailId:psp234@gmail.com</p>
+    <hr>
+    <form action="mailto:psp213pramanik@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="firstandLastname" value="">
+        <input type="checkbox" name="check" value="yes" unchecked><br>
+
+        <label>Your mailId:</label>
+        <input type="email" name="YourMailId" pattern=".+@gmail\.com" value=""><br>
+
+        <label>Your Password:</label>
+        <input type="password" name="password" id="pass" minlength="8" required><br>
+
+        <label>Your Message</label><br>
+        <textarea name="name" rows="8" cols="80"></textarea><br>
+        <input type="submit" name="submittheButton" value="SUBMIT">
+    </form>
+  </body>
+</html>
